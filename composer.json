@@ -1,0 +1,30 @@
+{
+  "name": "mnaimjons/multi-lang-entities",
+  "description": "A Laravel package for handling multi-language entities.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Naimjon",
+      "email": "mnaimjons@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mnaimjons\\MultiLangEntities\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mnaimjons\\MultiLangEntities\\MultiLangEntitiesServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
